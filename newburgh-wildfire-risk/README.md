@@ -47,9 +47,19 @@ All inputs were standardised to British National Grid (EPSG:27700).
 - Farmland west of the A975 scores low (1.3 to 2.0) because of lower fuel continuity and better access.
 - The coastal high-risk band appears under all three weighting schemes, so the main result does not depend on the chosen weights.
 
+| Scheme | Land cover | Fire station distance | Slope | Aspect | Min | Max | Mean | SD |
+|-|-|-|-|-|-|-|-|-|
+| A: balanced (main model) | 40% | 30% | 20% | 10% | 1.30 | 3.90 | 2.38 | 0.43 |
+| B: operational | 50% | 35% | 10% | 5% | 1.35 | 4.15 | 2.54 | 0.51 |
+| C: conservation | 45% | 15% | 25% | 15% | 1.15 | 3.65 | 2.17 | 0.47 |
+
 | Scheme A: balanced | Scheme B: operational | Scheme C: conservation |
 |-|-|-|
 | ![Scheme A](maps/07_scheme_a_balanced.jpg) | ![Scheme B](maps/08_scheme_b_operational.jpg) | ![Scheme C](maps/09_scheme_c_conservation.jpg) |
+
+## Code
+
+[`scripts/wildfire_risk_workflow.py`](scripts/wildfire_risk_workflow.py) runs the whole analysis in ArcPy, from clipping and mosaicking the inputs through reclassification, the three weighted overlays and summary statistics. Set `ROOT` to your project folder and run it in the ArcGIS Pro Python window. It needs the Spatial Analyst and 3D Analyst extensions. The raw OS, UKCEH and NatureScot data are free to download and are not included here.
 
 ## Limitations
 
