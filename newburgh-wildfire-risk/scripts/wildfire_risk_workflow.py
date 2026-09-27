@@ -16,7 +16,7 @@ import os
 arcpy.env.overwriteOutput = True
 
 # Change ROOT to your own project folder
-ROOT    = r'C:\path\to\GG5540_Wildfire_Newburgh'
+ROOT    = r'C:\path\to\Newburgh_Wildfire'
 outputs = os.path.join(ROOT, 'Outputs')
 raw     = os.path.join(ROOT, 'Raw_Data')
 

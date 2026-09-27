@@ -1,6 +1,6 @@
 # Wildfire risk to a coastal settlement: Newburgh, Aberdeenshire
 
-A GIS multicriteria assessment of wildfire risk around Newburgh and the Forvie National Nature Reserve, built in ArcGIS Pro with ArcPy using open UK datasets. Coursework for GG5540 Current Applications of GIS, MSc GIS and Remote Sensing, University of Aberdeen (May 2026).
+A GIS multicriteria assessment of wildfire risk around Newburgh and the Forvie National Nature Reserve, built in ArcGIS Pro with ArcPy using open UK datasets. MSc GIS and Remote Sensing project, University of Aberdeen (2026).
 
 ![Composite wildfire risk map](maps/01_composite_wildfire_risk.jpg)
 

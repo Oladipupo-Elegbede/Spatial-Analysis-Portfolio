@@ -2,7 +2,7 @@
 
 An interactive R Shiny dashboard for drought monitoring across Nigeria from 1981 to 2024. It calculates SPI-12 and SPEI-12 drought indices from CRU TS v4.09 gridded climate data, identifies drought events with the Theory of Runs, and summarises drought hotspots by state and by river catchment.
 
-Built for GG5567 Advanced Spatial Analysis and Programming, MSc GIS and Remote Sensing, University of Aberdeen (2026).
+MSc GIS and Remote Sensing project, University of Aberdeen (2026).
 
 ## What the dashboard does
 
